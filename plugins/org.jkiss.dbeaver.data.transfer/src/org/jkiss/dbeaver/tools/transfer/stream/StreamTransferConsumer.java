@@ -85,23 +85,23 @@ public class StreamTransferConsumer implements IDataTransferConsumer<StreamConsu
     private static final String LOB_DIRECTORY_NAME = "files"; //$NON-NLS-1$
     private static final String PROP_FORMAT = "format"; //$NON-NLS-1$
 
-    public static final String NODE_ID = "streamTransferConsumer";
+    public static final String NODE_ID = "streamTransferConsumer"; //$NON-NLS-1$
 
-    public static final String VARIABLE_DATASOURCE = "datasource";
-    public static final String VARIABLE_CATALOG = "catalog";
-    public static final String VARIABLE_SCHEMA = "schema";
-    public static final String VARIABLE_TABLE = "table";
-    public static final String VARIABLE_TIMESTAMP = "timestamp";
-    public static final String VARIABLE_INDEX = "index";
-    public static final String VARIABLE_DATE = "date";
-    public static final String VARIABLE_PROJECT = "project";
-    public static final String VARIABLE_CONN_TYPE = "connectionType";
-    public static final String VARIABLE_SCRIPT_FILE = "scriptFilename";
-    public static final String VARIABLE_YEAR = "year";
-    public static final String VARIABLE_MONTH = "month";
-    public static final String VARIABLE_DAY = "day";
-    public static final String VARIABLE_HOUR = "hour";
-    public static final String VARIABLE_MINUTE = "minute";
+    public static final String VARIABLE_DATASOURCE = "datasource"; //$NON-NLS-1$
+    public static final String VARIABLE_CATALOG = "catalog"; //$NON-NLS-1$
+    public static final String VARIABLE_SCHEMA = "schema"; //$NON-NLS-1$
+    public static final String VARIABLE_TABLE = "table"; //$NON-NLS-1$
+    public static final String VARIABLE_TIMESTAMP = "timestamp"; //$NON-NLS-1$
+    public static final String VARIABLE_INDEX = "index"; //$NON-NLS-1$
+    public static final String VARIABLE_DATE = "date"; //$NON-NLS-1$
+    public static final String VARIABLE_PROJECT = "project"; //$NON-NLS-1$
+    public static final String VARIABLE_CONN_TYPE = "connectionType"; //$NON-NLS-1$
+    public static final String VARIABLE_SCRIPT_FILE = "scriptFilename"; //$NON-NLS-1$
+    public static final String VARIABLE_YEAR = "year"; //$NON-NLS-1$
+    public static final String VARIABLE_MONTH = "month"; //$NON-NLS-1$
+    public static final String VARIABLE_DAY = "day"; //$NON-NLS-1$
+    public static final String VARIABLE_HOUR = "hour"; //$NON-NLS-1$
+    public static final String VARIABLE_MINUTE = "minute"; //$NON-NLS-1$
 
     public static final String[][] VARIABLES = {
         {VARIABLE_DATASOURCE, "source database datasource"},
